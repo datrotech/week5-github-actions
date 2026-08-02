@@ -1,1 +1,16 @@
+name: CI
 
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build
+        run: echo "building the app"
+
+      - name: Test
+        run: echo "running tests"
