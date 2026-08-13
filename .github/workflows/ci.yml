@@ -13,4 +13,4 @@ jobs:
         run: echo "building the app"
 
       - name: Test
-        run: echo "running tests"
+        run: echo "running testing"
